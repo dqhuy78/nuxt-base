@@ -41,7 +41,7 @@ export default {
 
     css: [
         '@/assets/css/tailwind.css',
-        'element-ui/lib/theme-chalk/index.css'
+        'element-ui/lib/theme-chalk/index.css',
     ],
 
     plugins: [
@@ -69,5 +69,5 @@ export default {
                 tailwindcss: path.resolve(__dirname, 'tailwind.config.js'),
             },
         },
-    }
-}
+    },
+};

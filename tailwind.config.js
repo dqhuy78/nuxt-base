@@ -3,7 +3,7 @@ module.exports = {
         removeDeprecatedGapUtilities: true,
         purgeLayersByDefault: true,
         defaultLineHeights: true,
-        standardFontWeights: true
+        standardFontWeights: true,
     },
     purge: {
         enabled: process.env.ENV === 'production',
@@ -42,7 +42,7 @@ module.exports = {
             'regular-text': '#606266',
             'secondary-text': '#909399',
             'border-base': '#DCDFE6',
-            'border-light': '#E4E7ED'
+            'border-light': '#E4E7ED',
         },
         borderColor: (theme) => ({
             default: theme('colors.border-base'),
