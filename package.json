@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-base",
+  "version": "1.0.0",
+  "description": "My lovely Nuxt.js project",
+  "author": "huydq-2329",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/sentry": "^4.3.5",
+    "@nuxtjs/tailwindcss": "^3.1.0",
+    "axios": "^0.20.0",
+    "element-ui": "^2.4.11",
+    "envalid": "^6.0.2",
+    "lodash": "^4.17.20",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.0.0",
+    "path": "^0.12.7",
+    "sass-loader": "^10.0.3",
+    "vue-i18n": "^8.22.0"
+  },
+  "devDependencies": {}
+}
